@@ -7,11 +7,9 @@
 ```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
-Install dependencies:
 ```
+Install dependencies:
 ```bash
-Copy
-Edit
 pip install -r requirements.txt
 ```
 Create a config.py file with your MongoDB URI and secret key.

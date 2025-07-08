@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>All Interns</h2>
+<ul>
+    {% for intern in interns %}
+    <li>
+        <strong>{{ intern.name }}</strong> - Team: {{ intern.team }} - Task: {{ intern.task }}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

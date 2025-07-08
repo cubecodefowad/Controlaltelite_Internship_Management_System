@@ -8,28 +8,23 @@
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 Install dependencies:
-
-bash
+```
+```bash
 Copy
 Edit
 pip install -r requirements.txt
+```
 Create a config.py file with your MongoDB URI and secret key.
 
 Run the app:
 
-bash
-Copy
-Edit
+```bash
 python run.py
+```
 Open your browser at http://127.0.0.1:5000/
 
-yaml
-Copy
-Edit
 
----
-
-### 5. **Commit your code**
+5. **Commit your code**
 
 ```bash
 git init
